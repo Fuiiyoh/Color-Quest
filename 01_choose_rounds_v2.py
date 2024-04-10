@@ -78,7 +78,7 @@ class Play:
                                     )
         self.choose_heading.grid(row=0)
 
-        self.control_frame = Frame(self.question_frame)
+        self.control_frame = Frame(self.quest_frame)
         self.control_frame.grid(row=6)
 
         self.start_over_button = Button(self.control_frame,
